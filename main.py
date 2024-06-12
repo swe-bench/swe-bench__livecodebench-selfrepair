@@ -1,8 +1,10 @@
+from typing import List
+
 class Solution:
-    def beautifulSubstrings(self, s: str, k: int) -> int:
+    def findMaximumLength(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.beautifulSubstrings("baeyh", 2) == 2
-assert obj.beautifulSubstrings("abba", 1) == 3
-assert obj.beautifulSubstrings("bcdf", 1) == 0
+assert obj.findMaximumLength([5, 2, 2]) == 1
+assert obj.findMaximumLength([1, 2, 3, 4]) == 4
+assert obj.findMaximumLength([4, 3, 2, 6]) == 3
