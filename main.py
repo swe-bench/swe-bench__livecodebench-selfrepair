@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def sumOfSquares(self, nums: List[int]) -> int:
+    def findValueOfPartition(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.sumOfSquares([1, 2, 3, 4]) == 21
-assert obj.sumOfSquares([2, 7, 1, 19, 18, 3]) == 63
+assert obj.findValueOfPartition([1, 3, 2, 4]) == 1
+assert obj.findValueOfPartition([100, 1, 10]) == 9
