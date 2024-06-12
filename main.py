@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def getMaxFunctionValue(self, receiver: List[int], k: int) -> int:
+    def minOperations(self, s1: str, s2: str, x: int) -> int:
         pass
 
 obj = Solution()
-assert obj.getMaxFunctionValue([2, 0, 1], 4) == 6
-assert obj.getMaxFunctionValue([1, 1, 1, 2, 3], 3) == 10
+assert obj.minOperations("1100011000", "0101001010", 2) == 4
+assert obj.minOperations("10110", "00011", 4) == -1
