@@ -1,8 +1,9 @@
+from typing import List
+
 class Solution:
-    def minimumSteps(self, s: str) -> int:
+    def maxFrequencyScore(self, nums: List[int], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.minimumSteps("101") == 1
-assert obj.minimumSteps("100") == 2
-assert obj.minimumSteps("0111") == 0
+assert obj.maxFrequencyScore([1, 2, 6, 4], 3) == 3
+assert obj.maxFrequencyScore([1, 4, 4, 2, 4], 0) == 3
