@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def circularGameLosers(self, n: int, k: int) -> List[int]:
+    def doesValidArrayExist(self, derived: List[int]) -> bool:
         pass
 
 obj = Solution()
-assert obj.circularGameLosers(5, 2) == [4, 5]
-assert obj.circularGameLosers(4, 4) == [2, 3, 4]
+assert obj.doesValidArrayExist([1, 1, 0]) == True
+assert obj.doesValidArrayExist([1, 1]) == True
+assert obj.doesValidArrayExist([1, 0]) == False
