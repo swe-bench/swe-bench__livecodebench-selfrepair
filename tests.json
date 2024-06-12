@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"3 9 2\\n\", \"output\": \"3 5 7 9\\n\", \"testtype\": \"stdin\"}, {\"input\": \"10 10 1\\n\", \"output\": \"10\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"5\\n1 20\\n1 30\\n2 1\\n1 40\\n2 3\\n\", \"output\": \"30\\n20\\n\", \"testtype\": \"stdin\"}]"}
