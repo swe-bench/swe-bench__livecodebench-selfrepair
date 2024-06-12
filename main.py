@@ -1,10 +1,10 @@
 from typing import List
 
 class Solution:
-    def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:
+    def maximumSumOfHeights(self, maxHeights: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.lengthOfLongestSubsequence([1, 2, 3, 4, 5], 9) == 3
-assert obj.lengthOfLongestSubsequence([4, 1, 3, 2, 1, 5], 7) == 4
-assert obj.lengthOfLongestSubsequence([1, 1, 5, 4, 5], 3) == -1
+assert obj.maximumSumOfHeights([5, 3, 4, 1, 1]) == 13
+assert obj.maximumSumOfHeights([6, 5, 3, 9, 2, 7]) == 22
+assert obj.maximumSumOfHeights([3, 2, 5, 5, 2, 3]) == 18
