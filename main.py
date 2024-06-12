@@ -1,8 +1,9 @@
+from typing import List
+
 class Solution:
-    def minimumBeautifulSubstrings(self, s: str) -> int:
+    def longestValidSubstring(self, word: str, forbidden: List[str]) -> int:
         pass
 
 obj = Solution()
-assert obj.minimumBeautifulSubstrings("1011") == 2
-assert obj.minimumBeautifulSubstrings("111") == 3
-assert obj.minimumBeautifulSubstrings("0") == -1
+assert obj.longestValidSubstring("cbaaaabc", ["aaa", "cb"]) == 4
+assert obj.longestValidSubstring("leetcode", ["de", "le", "e"]) == 4
