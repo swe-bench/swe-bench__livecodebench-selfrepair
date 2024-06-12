@@ -1,8 +1,7 @@
 class Solution:
-    def furthestDistanceFromOrigin(self, moves: str) -> int:
+    def numberOfWays(self, s: str, t: str, k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.furthestDistanceFromOrigin("L_RL__R") == 3
-assert obj.furthestDistanceFromOrigin("_R__LL_") == 5
-assert obj.furthestDistanceFromOrigin("_______") == 7
+assert obj.numberOfWays("abcd", "cdab", 2) == 2
+assert obj.numberOfWays("ababab", "ababab", 1) == 2
