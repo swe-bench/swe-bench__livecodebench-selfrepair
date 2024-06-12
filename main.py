@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def maximumTripletValue(self, nums: List[int]) -> int:
+    def sumCounts(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maximumTripletValue([12, 6, 1, 2, 7]) == 77
-assert obj.maximumTripletValue([1, 10, 3, 4, 19]) == 133
-assert obj.maximumTripletValue([1, 2, 3]) == 0
+assert obj.sumCounts([1, 2, 1]) == 15
+assert obj.sumCounts([1, 1]) == 3
