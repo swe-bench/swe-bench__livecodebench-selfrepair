@@ -1,7 +1,10 @@
+from typing import List
+
 class Solution:
-    def accountBalanceAfterPurchase(self, purchaseAmount: int) -> int:
+    def isAcronym(self, words: List[str], s: str) -> bool:
         pass
 
 obj = Solution()
-assert obj.accountBalanceAfterPurchase(9) == 90
-assert obj.accountBalanceAfterPurchase(15) == 80
+assert obj.isAcronym(["alice", "bob", "charlie"], "abc") == True
+assert obj.isAcronym(["an", "apple"], "a") == False
+assert obj.isAcronym(["never", "gonna", "give", "up", "on", "you"], "ngguoy") == True
