@@ -1,9 +1,8 @@
-from typing import List
-
 class Solution:
-    def maxFrequencyElements(self, nums: List[int]) -> int:
+    def numberOfPowerfulInt(self, start: int, finish: int, limit: int, s: str) -> int:
         pass
 
 obj = Solution()
-assert obj.maxFrequencyElements([1, 2, 2, 3, 1, 4]) == 4
-assert obj.maxFrequencyElements([1, 2, 3, 4, 5]) == 5
+assert obj.numberOfPowerfulInt(1, 6000, 4, "124") == 5
+assert obj.numberOfPowerfulInt(15, 215, 6, "10") == 2
+assert obj.numberOfPowerfulInt(1000, 2000, 4, "3000") == 0
