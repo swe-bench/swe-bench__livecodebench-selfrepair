@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def maxFrequencyScore(self, nums: List[int], k: int) -> int:
+    def distributeCandies(self, n: int, limit: int) -> int:
         pass
 
 obj = Solution()
-assert obj.maxFrequencyScore([1, 2, 6, 4], 3) == 3
-assert obj.maxFrequencyScore([1, 4, 4, 2, 4], 0) == 3
+assert obj.distributeCandies(5, 2) == 3
+assert obj.distributeCandies(3, 3) == 10
