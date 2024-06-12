@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def alternatingSubarray(self, nums: List[int]) -> int:
+    def maxArrayValue(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.alternatingSubarray([2, 3, 4, 3, 4]) == 4
-assert obj.alternatingSubarray([4, 5, 6]) == 2
+assert obj.maxArrayValue([2, 3, 7, 9, 3]) == 21
+assert obj.maxArrayValue([5, 3, 3]) == 11
