@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"Takahashi Chokudai\\n\", \"output\": \"Takahashi san\\n\", \"testtype\": \"stdin\"}, {\"input\": \"K Eyence\\n\", \"output\": \"K san\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"3\\n5 0\\n3 3\\n2 18\\n\", \"output\": \"8\\n\", \"testtype\": \"stdin\"}, {\"input\": \"2\\n1 10\\n1000000 20\\n\", \"output\": \"1000000\\n\", \"testtype\": \"stdin\"}, {\"input\": \"6\\n31 3\\n20 8\\n11 5\\n4 3\\n47 14\\n1 18\\n\", \"output\": \"67\\n\", \"testtype\": \"stdin\"}]"}
