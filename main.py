@@ -1,8 +1,8 @@
 class Solution:
-    def differenceOfSums(self, n: int, m: int) -> int:
+    def minChanges(self, s: str) -> int:
         pass
 
 obj = Solution()
-assert obj.differenceOfSums(10, 3) == 19
-assert obj.differenceOfSums(5, 6) == 15
-assert obj.differenceOfSums(5, 1) == -15
+assert obj.minChanges("1001") == 2
+assert obj.minChanges("10") == 1
+assert obj.minChanges("0000") == 0
