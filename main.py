@@ -1,8 +1,9 @@
+from typing import List
+
 class Solution:
-    def maxPartitionsAfterOperations(self, s: str, k: int) -> int:
+    def getGoodIndices(self, variables: List[List[int]], target: int) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.maxPartitionsAfterOperations("accca", 2) == 3
-assert obj.maxPartitionsAfterOperations("aabaab", 3) == 1
-assert obj.maxPartitionsAfterOperations("xxyz", 1) == 4
+assert obj.getGoodIndices([[2, 3, 3, 10], [3, 3, 3, 1], [6, 1, 1, 4]], 2) == [0, 2]
+assert obj.getGoodIndices([[39, 3, 1000, 1000]], 17) == []
