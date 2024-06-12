@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def beautifulIndices(self, s: str, a: str, b: str, k: int) -> List[int]:
+    def hasTrailingZeros(self, nums: List[int]) -> bool:
         pass
 
 obj = Solution()
-assert obj.beautifulIndices("isawsquirrelnearmysquirrelhouseohmy", "my", "squirrel", 15) == [16, 33]
-assert obj.beautifulIndices("abcd", "a", "a", 4) == [0]
+assert obj.hasTrailingZeros([1, 2, 3, 4, 5]) == True
+assert obj.hasTrailingZeros([2, 4, 8, 16]) == True
+assert obj.hasTrailingZeros([1, 3, 5, 7, 9]) == False
