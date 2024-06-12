@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def getGoodIndices(self, variables: List[List[int]], target: int) -> List[int]:
+    def minimumCost(self, source: str, target: str, original: List[str], changed: List[str], cost: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.getGoodIndices([[2, 3, 3, 10], [3, 3, 3, 1], [6, 1, 1, 4]], 2) == [0, 2]
-assert obj.getGoodIndices([[39, 3, 1000, 1000]], 17) == []
+assert obj.minimumCost("abcd", "acbe", ["a", "b", "c", "c", "e", "d"], ["b", "c", "b", "e", "b", "e"], [2, 5, 5, 1, 2, 20]) == 28
+assert obj.minimumCost("aaaa", "bbbb", ["a", "c"], ["c", "b"], [1, 2]) == 12
+assert obj.minimumCost("abcd", "abce", ["a"], ["e"], [10000]) == -1
