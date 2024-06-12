@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def numberGame(self, nums: List[int]) -> List[int]:
+    def findMissingAndRepeatedValues(self, grid: List[List[int]]) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.numberGame([5, 4, 2, 3]) == [3, 2, 5, 4]
-assert obj.numberGame([2, 5]) == [5, 2]
+assert obj.findMissingAndRepeatedValues([[1, 3], [2, 2]]) == [2, 4]
+assert obj.findMissingAndRepeatedValues([[9, 1, 7], [8, 9, 2], [3, 4, 6]]) == [9, 5]
