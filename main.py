@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def relocateMarbles(self, nums: List[int], moveFrom: List[int], moveTo: List[int]) -> List[int]:
+    def makeTheIntegerZero(self, num1: int, num2: int) -> int:
         pass
 
 obj = Solution()
-assert obj.relocateMarbles([1, 6, 7, 8], [1, 7, 2], [2, 9, 5]) == [5, 6, 8, 9]
-assert obj.relocateMarbles([1, 1, 3, 3], [1, 3], [2, 2]) == [2]
+assert obj.makeTheIntegerZero(3, -2) == 3
+assert obj.makeTheIntegerZero(5, 7) == -1
