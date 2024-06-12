@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def lastVisitedIntegers(self, words: List[str]) -> List[int]:
+    def minGroupsForValidAssignment(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.lastVisitedIntegers(["1", "2", "prev", "prev", "prev"]) == [2, 1, -1]
-assert obj.lastVisitedIntegers(["1", "prev", "2", "prev", "prev"]) == [1, 2, 1]
+assert obj.minGroupsForValidAssignment([3, 2, 3, 2, 3]) == 2
+assert obj.minGroupsForValidAssignment([10, 10, 10, 3, 1, 1]) == 4
