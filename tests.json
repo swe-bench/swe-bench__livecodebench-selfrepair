@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"12\\n31 28 31 30 31 30 31 31 30 31 30 31\\n\", \"output\": \"7 2\\n\", \"testtype\": \"stdin\"}, {\"input\": \"1\\n1\\n\", \"output\": \"1 1\\n\", \"testtype\": \"stdin\"}, {\"input\": \"6\\n3 1 4 1 5 9\\n\", \"output\": \"5 3\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"4\\n1 4\\n2 10\\n2 8\\n3 6\\n\", \"output\": \"16\\n\", \"testtype\": \"stdin\"}, {\"input\": \"4\\n4 10\\n3 2\\n2 4\\n4 12\\n\", \"output\": \"17\\n\", \"testtype\": \"stdin\"}]"}
