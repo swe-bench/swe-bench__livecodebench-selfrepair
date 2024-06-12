@@ -1,8 +1,9 @@
+from typing import List
+
 class Solution:
-    def longestSemiRepetitiveSubstring(self, s: str) -> int:
+    def circularGameLosers(self, n: int, k: int) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.longestSemiRepetitiveSubstring("52233") == 4
-assert obj.longestSemiRepetitiveSubstring("5494") == 4
-assert obj.longestSemiRepetitiveSubstring("1111111") == 2
+assert obj.circularGameLosers(5, 2) == [4, 5]
+assert obj.circularGameLosers(4, 4) == [2, 3, 4]
