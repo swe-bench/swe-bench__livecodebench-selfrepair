@@ -1,0 +1,1 @@
+{"tests": "[{\"input\": \"5\\nTTAAT\\n\", \"output\": \"T\\n\", \"testtype\": \"stdin\"}, {\"input\": \"6\\nATTATA\\n\", \"output\": \"T\\n\", \"testtype\": \"stdin\"}, {\"input\": \"1\\nA\\n\", \"output\": \"A\\n\", \"testtype\": \"stdin\"}]"}

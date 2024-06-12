@@ -1,9 +1,11 @@
-from typing import List
+import sys
 
-class Solution:
-    def resultArray(self, nums: List[int]) -> List[int]:
-        pass
+def solution():
+    input_data = sys.stdin.read().strip()
+                    
+    # REPLACE WITH YOUR CODE HERE
+                    
+    # Remember, assign the output to output_data
+    output_data = None
 
-obj = Solution()
-assert obj.resultArray([2, 1, 3]) == [2, 3, 1]
-assert obj.resultArray([5, 4, 3, 8]) == [5, 3, 4, 8]
+    print(output_data)
