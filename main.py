@@ -1,7 +1,9 @@
+from typing import List
+
 class Solution:
-    def count(self, num1: str, num2: str, min_sum: int, max_sum: int) -> int:
+    def distinctDifferenceArray(self, nums: List[int]) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.count("1", "12", 1, 8) == 11
-assert obj.count("1", "5", 1, 5) == 5
+assert obj.distinctDifferenceArray([1, 2, 3, 4, 5]) == [-3, -1, 1, 3, 5]
+assert obj.distinctDifferenceArray([3, 2, 3, 4, 2]) == [-2, -1, 0, 2, 3]
