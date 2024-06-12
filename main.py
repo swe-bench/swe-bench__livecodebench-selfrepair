@@ -1,10 +1,10 @@
 from typing import List
 
 class Solution:
-    def minimumSum(self, nums: List[int]) -> int:
+    def findKOr(self, nums: List[int], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.minimumSum([8, 6, 1, 5, 3]) == 9
-assert obj.minimumSum([5, 4, 8, 7, 10, 2]) == 13
-assert obj.minimumSum([6, 5, 4, 3, 4, 5]) == -1
+assert obj.findKOr([7, 12, 9, 8, 9, 15], 4) == 9
+assert obj.findKOr([2, 12, 1, 11, 4, 5], 6) == 0
+assert obj.findKOr([10, 8, 5, 9, 11, 6, 8], 1) == 15
