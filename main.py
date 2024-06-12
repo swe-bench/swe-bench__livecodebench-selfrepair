@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def minimumTime(self, nums1: List[int], nums2: List[int], x: int) -> int:
+    def countPairs(self, coordinates: List[List[int]], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.minimumTime([1, 2, 3], [1, 2, 3], 4) == 3
-assert obj.minimumTime([1, 2, 3], [3, 3, 3], 4) == -1
+assert obj.countPairs([[1, 2], [4, 2], [1, 3], [5, 2]], 5) == 2
+assert obj.countPairs([[1, 3], [1, 3], [1, 3], [1, 3], [1, 3]], 0) == 10
