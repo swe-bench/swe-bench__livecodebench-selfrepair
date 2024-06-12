@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def findPeaks(self, mountain: List[int]) -> List[int]:
+    def countCompleteSubstrings(self, word: str, k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.findPeaks([2, 4, 4]) == []
-assert obj.findPeaks([1, 4, 3, 8, 5]) == [1, 3]
+assert obj.countCompleteSubstrings("igigee", 2) == 3
+assert obj.countCompleteSubstrings("aaabbbccc", 3) == 6
