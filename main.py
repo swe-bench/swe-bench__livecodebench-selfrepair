@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def maxPalindromesAfterOperations(self, words: List[str]) -> int:
+    def maxOperations(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maxPalindromesAfterOperations(["abbb", "ba", "aa"]) == 3
-assert obj.maxPalindromesAfterOperations(["abc", "ab"]) == 2
-assert obj.maxPalindromesAfterOperations(["cd", "ef", "a"]) == 1
+assert obj.maxOperations([3, 2, 1, 4, 5]) == 2
+assert obj.maxOperations([3, 2, 6, 1, 4]) == 1
