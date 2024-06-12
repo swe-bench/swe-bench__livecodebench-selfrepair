@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def sumImbalanceNumbers(self, nums: List[int]) -> int:
+    def longestString(self, x: int, y: int, z: int) -> int:
         pass
 
 obj = Solution()
-assert obj.sumImbalanceNumbers([2, 3, 1, 4]) == 3
-assert obj.sumImbalanceNumbers([1, 3, 3, 3, 5]) == 8
+assert obj.longestString(2, 5, 1) == 12
+assert obj.longestString(3, 2, 2) == 14
