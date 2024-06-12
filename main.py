@@ -1,7 +1,9 @@
+from typing import List
+
 class Solution:
-    def countCompleteSubstrings(self, word: str, k: int) -> int:
+    def numberOfSequence(self, n: int, sick: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.countCompleteSubstrings("igigee", 2) == 3
-assert obj.countCompleteSubstrings("aaabbbccc", 3) == 6
+assert obj.numberOfSequence(5, [0, 4]) == 4
+assert obj.numberOfSequence(4, [1]) == 3
