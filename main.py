@@ -1,10 +1,8 @@
-from typing import List
-
 class Solution:
-    def minimumCost(self, nums: List[int]) -> int:
+    def removeAlmostEqualCharacters(self, word: str) -> int:
         pass
 
 obj = Solution()
-assert obj.minimumCost([1, 2, 3, 4, 5]) == 6
-assert obj.minimumCost([10, 12, 13, 14, 15]) == 11
-assert obj.minimumCost([22, 33, 22, 33, 22]) == 22
+assert obj.removeAlmostEqualCharacters("aaaaa") == 2
+assert obj.removeAlmostEqualCharacters("abddez") == 2
+assert obj.removeAlmostEqualCharacters("zyxyxyz") == 3
