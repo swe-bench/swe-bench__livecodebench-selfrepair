@@ -1,10 +1,8 @@
-from typing import List
-
 class Solution:
-    def minSizeSubarray(self, nums: List[int], target: int) -> int:
+    def shortestBeautifulSubstring(self, s: str, k: int) -> str:
         pass
 
 obj = Solution()
-assert obj.minSizeSubarray([1, 2, 3], 5) == 2
-assert obj.minSizeSubarray([1, 1, 1, 2, 3], 4) == 2
-assert obj.minSizeSubarray([2, 4, 6, 8], 3) == -1
+assert obj.shortestBeautifulSubstring("100011001", 3) == "11001"
+assert obj.shortestBeautifulSubstring("1011", 2) == "11"
+assert obj.shortestBeautifulSubstring("000", 1) == ""
