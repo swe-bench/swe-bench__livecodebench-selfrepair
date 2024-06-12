@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def maxSubarrays(self, nums: List[int]) -> int:
+    def minLengthAfterRemovals(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maxSubarrays([1, 0, 2, 0, 1, 2]) == 3
-assert obj.maxSubarrays([5, 7, 1, 3]) == 1
+assert obj.minLengthAfterRemovals([1, 3, 4, 9]) == 0
+assert obj.minLengthAfterRemovals([2, 3, 6, 9]) == 0
+assert obj.minLengthAfterRemovals([1, 1, 2]) == 1
