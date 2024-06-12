@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def isAcronym(self, words: List[str], s: str) -> bool:
+    def maximizeTheProfit(self, n: int, offers: List[List[int]]) -> int:
         pass
 
 obj = Solution()
-assert obj.isAcronym(["alice", "bob", "charlie"], "abc") == True
-assert obj.isAcronym(["an", "apple"], "a") == False
-assert obj.isAcronym(["never", "gonna", "give", "up", "on", "you"], "ngguoy") == True
+assert obj.maximizeTheProfit(5, [[0, 0, 1], [0, 2, 2], [1, 3, 2]]) == 3
+assert obj.maximizeTheProfit(5, [[0, 0, 1], [0, 2, 10], [1, 3, 2]]) == 10
