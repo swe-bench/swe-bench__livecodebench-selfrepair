@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def maximumOr(self, nums: List[int], k: int) -> int:
+    def maxStrength(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maximumOr([12, 9], 1) == 30
-assert obj.maximumOr([8, 1, 2], 2) == 35
+assert obj.maxStrength([3, -1, -5, 2, 5, -9]) == 1350
+assert obj.maxStrength([-4, -5, -4]) == 20
