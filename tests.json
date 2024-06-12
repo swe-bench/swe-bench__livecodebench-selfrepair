@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"4\\n2 5 1 2\\n\", \"output\": \"2 3 4 5 4 3 2 1 2\\n\", \"testtype\": \"stdin\"}, {\"input\": \"6\\n3 4 5 6 5 4\\n\", \"output\": \"3 4 5 6 5 4\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"ch@ku@ai\\nchoku@@i\\n\", \"output\": \"Yes\\n\", \"testtype\": \"stdin\"}, {\"input\": \"ch@kud@i\\nakidu@ho\\n\", \"output\": \"Yes\\n\", \"testtype\": \"stdin\"}, {\"input\": \"aoki\\n@ok@\\n\", \"output\": \"No\\n\", \"testtype\": \"stdin\"}, {\"input\": \"aa\\nbb\\n\", \"output\": \"No\\n\", \"testtype\": \"stdin\"}]"}
