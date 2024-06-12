@@ -1,7 +1,9 @@
+from typing import List
+
 class Solution:
-    def minOperations(self, s1: str, s2: str, x: int) -> int:
+    def numberOfPoints(self, nums: List[List[int]]) -> int:
         pass
 
 obj = Solution()
-assert obj.minOperations("1100011000", "0101001010", 2) == 4
-assert obj.minOperations("10110", "00011", 4) == -1
+assert obj.numberOfPoints([[3, 6], [1, 5], [4, 7]]) == 7
+assert obj.numberOfPoints([[1, 3], [5, 8]]) == 7
