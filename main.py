@@ -1,7 +1,8 @@
 class Solution:
-    def theMaximumAchievableX(self, num: int, t: int) -> int:
+    def makeSmallestPalindrome(self, s: str) -> str:
         pass
 
 obj = Solution()
-assert obj.theMaximumAchievableX(4, 1) == 6
-assert obj.theMaximumAchievableX(3, 2) == 7
+assert obj.makeSmallestPalindrome("egcfe") == "efcfe"
+assert obj.makeSmallestPalindrome("abcd") == "abba"
+assert obj.makeSmallestPalindrome("seven") == "neven"
