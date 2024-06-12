@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"4\\n1 7 2 9\\n\", \"output\": \"942786334\\n\", \"testtype\": \"stdin\"}, {\"input\": \"7\\n1 10 100 1000 10000 100000 1000000\\n\", \"output\": \"996117877\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"5\\nACABB\\n\", \"output\": \"4\\n\", \"testtype\": \"stdin\"}, {\"input\": \"4\\nCABC\\n\", \"output\": \"3\\n\", \"testtype\": \"stdin\"}, {\"input\": \"30\\nAABABBBABABBABABCABACAABCBACCA\\n\", \"output\": \"17\\n\", \"testtype\": \"stdin\"}]"}
