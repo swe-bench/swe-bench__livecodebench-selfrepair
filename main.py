@@ -1,7 +1,9 @@
+from typing import List
+
 class Solution:
-    def findMaximumNumber(self, k: int, x: int) -> int:
+    def maxFrequencyElements(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.findMaximumNumber(9, 1) == 6
-assert obj.findMaximumNumber(7, 2) == 9
+assert obj.maxFrequencyElements([1, 2, 2, 3, 1, 4]) == 4
+assert obj.maxFrequencyElements([1, 2, 3, 4, 5]) == 5
