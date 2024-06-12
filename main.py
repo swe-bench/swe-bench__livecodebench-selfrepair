@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def maxSelectedElements(self, nums: List[int]) -> int:
+    def maximumLength(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maxSelectedElements([2, 1, 5, 1, 1]) == 3
-assert obj.maxSelectedElements([1, 4, 7, 10]) == 1
+assert obj.maximumLength([5, 4, 1, 2, 2]) == 3
+assert obj.maximumLength([1, 3, 2, 4]) == 1
