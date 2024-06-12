@@ -1,8 +1,10 @@
+from typing import List
+
 class Solution:
-    def numberOfPowerfulInt(self, start: int, finish: int, limit: int, s: str) -> int:
+    def minimumArrayLength(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.numberOfPowerfulInt(1, 6000, 4, "124") == 5
-assert obj.numberOfPowerfulInt(15, 215, 6, "10") == 2
-assert obj.numberOfPowerfulInt(1000, 2000, 4, "3000") == 0
+assert obj.minimumArrayLength([1, 4, 3, 1]) == 1
+assert obj.minimumArrayLength([5, 5, 5, 10, 5]) == 2
+assert obj.minimumArrayLength([2, 3, 4]) == 1
