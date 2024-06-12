@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def maxSum(self, nums: List[int]) -> int:
+    def countInterestingSubarrays(self, nums: List[int], modulo: int, k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.maxSum([51, 71, 17, 24, 42]) == 88
-assert obj.maxSum([1, 2, 3, 4]) == -1
+assert obj.countInterestingSubarrays([3, 2, 4], 2, 1) == 3
+assert obj.countInterestingSubarrays([3, 1, 9, 6], 3, 0) == 2
