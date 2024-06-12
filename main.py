@@ -1,8 +1,9 @@
+from typing import List
+
 class Solution:
-    def maximumLength(self, s: str) -> int:
+    def countMatchingSubarrays(self, nums: List[int], pattern: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maximumLength("aaaa") == 2
-assert obj.maximumLength("abcdef") == -1
-assert obj.maximumLength("abcaba") == 1
+assert obj.countMatchingSubarrays([1, 2, 3, 4, 5, 6], [1, 1]) == 4
+assert obj.countMatchingSubarrays([1, 4, 4, 1, 3, 5, 5, 3], [1, 0, -1]) == 2
