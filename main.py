@@ -1,9 +1,8 @@
-from typing import List
-
 class Solution:
-    def checkArray(self, nums: List[int], k: int) -> bool:
+    def minimumChanges(self, s: str, k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.checkArray([2, 2, 3, 1, 1, 0], 3) == True
-assert obj.checkArray([1, 3, 1, 1], 2) == False
+assert obj.minimumChanges("abcac", 2) == 1
+assert obj.minimumChanges("abcdef", 2) == 2
+assert obj.minimumChanges("aabbaa", 3) == 0
