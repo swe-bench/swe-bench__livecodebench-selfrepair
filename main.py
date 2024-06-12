@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def sumIndicesWithKSetBits(self, nums: List[int], k: int) -> int:
+    def minOperations(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.sumIndicesWithKSetBits([5, 10, 1, 5, 2], 1) == 13
-assert obj.sumIndicesWithKSetBits([4, 3, 2, 1], 2) == 1
+assert obj.minOperations([2, 3, 3, 2, 2, 4, 2, 3, 4]) == 4
+assert obj.minOperations([2, 1, 2, 2, 3, 3]) == -1
