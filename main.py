@@ -1,10 +1,8 @@
-from typing import List
-
 class Solution:
-    def canTraverseAllPairs(self, nums: List[int]) -> bool:
+    def smallestString(self, s: str) -> str:
         pass
 
 obj = Solution()
-assert obj.canTraverseAllPairs([2, 3, 6]) == True
-assert obj.canTraverseAllPairs([3, 9, 5]) == False
-assert obj.canTraverseAllPairs([4, 3, 12, 8]) == True
+assert obj.smallestString("cbabc") == "baabc"
+assert obj.smallestString("acbbc") == "abaab"
+assert obj.smallestString("leetcode") == "kddsbncd"
