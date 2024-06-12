@@ -1,7 +1,10 @@
+from typing import List
+
 class Solution:
-    def distanceTraveled(self, mainTank: int, additionalTank: int) -> int:
+    def longestAlternatingSubarray(self, nums: List[int], threshold: int) -> int:
         pass
 
 obj = Solution()
-assert obj.distanceTraveled(5, 10) == 60
-assert obj.distanceTraveled(1, 2) == 10
+assert obj.longestAlternatingSubarray([3, 2, 5, 4], 5) == 3
+assert obj.longestAlternatingSubarray([1, 2], 2) == 1
+assert obj.longestAlternatingSubarray([2, 3, 4, 5], 4) == 3
