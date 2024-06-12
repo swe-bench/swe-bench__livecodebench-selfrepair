@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def minOperations(self, nums: List[int], target: int) -> int:
+    def constructProductMatrix(self, grid: List[List[int]]) -> List[List[int]]:
         pass
 
 obj = Solution()
-assert obj.minOperations([1, 2, 8], 7) == 1
-assert obj.minOperations([1, 32, 1, 2], 12) == 2
-assert obj.minOperations([1, 32, 1], 35) == -1
+assert obj.constructProductMatrix([[1, 2], [3, 4]]) == [[24, 12], [8, 6]]
+assert obj.constructProductMatrix([[12345], [2], [1]]) == [[2], [0], [0]]
