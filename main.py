@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def paintWalls(self, cost: List[int], time: List[int]) -> int:
+    def minCost(self, nums: List[int], x: int) -> int:
         pass
 
 obj = Solution()
-assert obj.paintWalls([1, 2, 3, 2], [1, 2, 3, 2]) == 3
-assert obj.paintWalls([2, 3, 4, 2], [1, 1, 1, 1]) == 4
+assert obj.minCost([20, 1, 15], 5) == 13
+assert obj.minCost([1, 2, 3], 4) == 6
