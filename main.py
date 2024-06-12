@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def minCost(self, nums: List[int], x: int) -> int:
+    def minimumSum(self, n: int, k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.minCost([20, 1, 15], 5) == 13
-assert obj.minCost([1, 2, 3], 4) == 6
+assert obj.minimumSum(5, 4) == 18
+assert obj.minimumSum(2, 6) == 3
