@@ -1,9 +1,11 @@
 from typing import List
 
 class Solution:
-    def maximumBeauty(self, nums: List[int], k: int) -> int:
+    def isGood(self, nums: List[int]) -> bool:
         pass
 
 obj = Solution()
-assert obj.maximumBeauty([4, 6, 1, 2], 2) == 3
-assert obj.maximumBeauty([1, 1, 1, 1], 10) == 4
+assert obj.isGood([2, 1, 3]) == False
+assert obj.isGood([1, 3, 3, 2]) == True
+assert obj.isGood([1, 1]) == True
+assert obj.isGood([3, 4, 4, 1, 2, 1]) == False
