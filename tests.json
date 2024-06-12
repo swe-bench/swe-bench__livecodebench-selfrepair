@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"3\\n\", \"output\": \"333\\n\", \"testtype\": \"stdin\"}, {\"input\": \"9\\n\", \"output\": \"999999999\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"AC\\nEC\\n\", \"output\": \"Yes\\n\", \"testtype\": \"stdin\"}, {\"input\": \"DA\\nEA\\n\", \"output\": \"No\\n\", \"testtype\": \"stdin\"}, {\"input\": \"BD\\nBD\\n\", \"output\": \"Yes\\n\", \"testtype\": \"stdin\"}]"}
