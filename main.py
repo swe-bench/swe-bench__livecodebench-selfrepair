@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def isPossibleToSplit(self, nums: List[int]) -> bool:
+    def longestCommonPrefix(self, arr1: List[int], arr2: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.isPossibleToSplit([1, 1, 2, 2, 3, 4]) == True
-assert obj.isPossibleToSplit([1, 1, 1, 1]) == False
+assert obj.longestCommonPrefix([1, 10, 100], [1000]) == 3
+assert obj.longestCommonPrefix([1, 2, 3], [4, 4, 4]) == 0
