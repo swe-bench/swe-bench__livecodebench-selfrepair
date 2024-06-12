@@ -1,8 +1,10 @@
+from typing import List
+
 class Solution:
-    def removeAlmostEqualCharacters(self, word: str) -> int:
+    def minimumAddedCoins(self, coins: List[int], target: int) -> int:
         pass
 
 obj = Solution()
-assert obj.removeAlmostEqualCharacters("aaaaa") == 2
-assert obj.removeAlmostEqualCharacters("abddez") == 2
-assert obj.removeAlmostEqualCharacters("zyxyxyz") == 3
+assert obj.minimumAddedCoins([1, 4, 10], 19) == 2
+assert obj.minimumAddedCoins([1, 4, 10, 5, 7, 19], 19) == 1
+assert obj.minimumAddedCoins([1, 1, 1], 20) == 3
