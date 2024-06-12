@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"atcoder\\n\", \"output\": \"tcdr\\n\", \"testtype\": \"stdin\"}, {\"input\": \"xyz\\n\", \"output\": \"xyz\\n\", \"testtype\": \"stdin\"}, {\"input\": \"aaaabbbbcccc\\n\", \"output\": \"bbbbcccc\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"12\\n31 28 31 30 31 30 31 31 30 31 30 31\\n\", \"output\": \"7 2\\n\", \"testtype\": \"stdin\"}, {\"input\": \"1\\n1\\n\", \"output\": \"1 1\\n\", \"testtype\": \"stdin\"}, {\"input\": \"6\\n3 1 4 1 5 9\\n\", \"output\": \"5 3\\n\", \"testtype\": \"stdin\"}]"}
