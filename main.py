@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def countPairs(self, nums: List[int], target: int) -> int:
+    def maxIncreasingGroups(self, usageLimits: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.countPairs([-1, 1, 2, 3, 1], 2) == 3
-assert obj.countPairs([-6, 2, 5, -2, -7, -1, 3], -2) == 10
+assert obj.maxIncreasingGroups([1, 2, 5]) == 3
+assert obj.maxIncreasingGroups([2, 1, 2]) == 2
+assert obj.maxIncreasingGroups([1, 1]) == 1
