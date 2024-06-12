@@ -1,11 +1,9 @@
-import sys
+from typing import List
 
-def solution():
-    input_data = sys.stdin.read().strip()
-                    
-    # REPLACE WITH YOUR CODE HERE
-                    
-    # Remember, assign the output to output_data
-    output_data = None
+class Solution:
+    def countSeniors(self, details: List[str]) -> int:
+        pass
 
-    print(output_data)
+obj = Solution()
+assert obj.countSeniors(["7868190130M7522", "5303914400F9211", "9273338290F4010"]) == 2
+assert obj.countSeniors(["1313579440F2036", "2921522980M5644"]) == 0
