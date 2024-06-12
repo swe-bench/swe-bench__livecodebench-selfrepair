@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def longestEqualSubarray(self, nums: List[int], k: int) -> int:
+    def countServers(self, n: int, logs: List[List[int]], x: int, queries: List[int]) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.longestEqualSubarray([1, 3, 2, 3, 1, 3], 3) == 3
-assert obj.longestEqualSubarray([1, 1, 2, 2, 1, 1], 2) == 4
+assert obj.countServers(3, [[1, 3], [2, 6], [1, 5]], 5, [10, 11]) == [1, 2]
+assert obj.countServers(3, [[2, 4], [2, 1], [1, 2], [3, 1]], 2, [3, 4]) == [0, 1]
