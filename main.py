@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def maxArrayValue(self, nums: List[int]) -> int:
+    def findPrimePairs(self, n: int) -> List[List[int]]:
         pass
 
 obj = Solution()
-assert obj.maxArrayValue([2, 3, 7, 9, 3]) == 21
-assert obj.maxArrayValue([5, 3, 3]) == 11
+assert obj.findPrimePairs(10) == [[3, 7], [5, 5]]
+assert obj.findPrimePairs(2) == []
