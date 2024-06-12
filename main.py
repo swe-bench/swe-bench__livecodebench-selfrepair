@@ -1,8 +1,7 @@
 class Solution:
-    def minimumOperationsToMakeEqual(self, x: int, y: int) -> int:
+    def findMaximumNumber(self, k: int, x: int) -> int:
         pass
 
 obj = Solution()
-assert obj.minimumOperationsToMakeEqual(26, 1) == 3
-assert obj.minimumOperationsToMakeEqual(54, 2) == 4
-assert obj.minimumOperationsToMakeEqual(25, 30) == 5
+assert obj.findMaximumNumber(9, 1) == 6
+assert obj.findMaximumNumber(7, 2) == 9
