@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
+    def minimumString(self, a: str, b: str, c: str) -> str:
         pass
 
 obj = Solution()
-assert obj.numberOfEmployeesWhoMetTarget([0, 1, 2, 3, 4], 2) == 3
-assert obj.numberOfEmployeesWhoMetTarget([5, 1, 4, 2, 2], 6) == 0
+assert obj.minimumString("abc", "bca", "aaa") == "aaabca"
+assert obj.minimumString("ab", "ba", "aba") == "aba"
