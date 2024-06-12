@@ -1,10 +1,8 @@
-from typing import List
-
 class Solution:
-    def semiOrderedPermutation(self, nums: List[int]) -> int:
+    def longestSemiRepetitiveSubstring(self, s: str) -> int:
         pass
 
 obj = Solution()
-assert obj.semiOrderedPermutation([2, 1, 4, 3]) == 2
-assert obj.semiOrderedPermutation([2, 4, 1, 3]) == 3
-assert obj.semiOrderedPermutation([1, 3, 4, 2, 5]) == 0
+assert obj.longestSemiRepetitiveSubstring("52233") == 4
+assert obj.longestSemiRepetitiveSubstring("5494") == 4
+assert obj.longestSemiRepetitiveSubstring("1111111") == 2
