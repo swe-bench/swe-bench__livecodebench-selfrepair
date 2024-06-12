@@ -1,7 +1,9 @@
+from typing import List
+
 class Solution:
-    def countSteppingNumbers(self, low: str, high: str) -> int:
+    def minimumTime(self, nums1: List[int], nums2: List[int], x: int) -> int:
         pass
 
 obj = Solution()
-assert obj.countSteppingNumbers("1", "11") == 10
-assert obj.countSteppingNumbers("90", "101") == 2
+assert obj.minimumTime([1, 2, 3], [1, 2, 3], 4) == 3
+assert obj.minimumTime([1, 2, 3], [3, 3, 3], 4) == -1
