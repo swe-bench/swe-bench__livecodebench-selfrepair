@@ -1,7 +1,8 @@
 class Solution:
-    def numberOfWays(self, n: int, x: int) -> int:
+    def minimumBeautifulSubstrings(self, s: str) -> int:
         pass
 
 obj = Solution()
-assert obj.numberOfWays(10, 2) == 1
-assert obj.numberOfWays(4, 1) == 2
+assert obj.minimumBeautifulSubstrings("1011") == 2
+assert obj.minimumBeautifulSubstrings("111") == 3
+assert obj.minimumBeautifulSubstrings("0") == -1
