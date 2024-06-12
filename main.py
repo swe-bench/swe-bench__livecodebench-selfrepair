@@ -1,7 +1,10 @@
+from typing import List
+
 class Solution:
-    def longestString(self, x: int, y: int, z: int) -> int:
+    def minimizeConcatenatedLength(self, words: List[str]) -> int:
         pass
 
 obj = Solution()
-assert obj.longestString(2, 5, 1) == 12
-assert obj.longestString(3, 2, 2) == 14
+assert obj.minimizeConcatenatedLength(["aa", "ab", "bc"]) == 4
+assert obj.minimizeConcatenatedLength(["ab", "b"]) == 2
+assert obj.minimizeConcatenatedLength(["aaa", "c", "aba"]) == 6
