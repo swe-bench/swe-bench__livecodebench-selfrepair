@@ -1,8 +1,10 @@
+from typing import List
+
 class Solution:
-    def minChanges(self, s: str) -> int:
+    def minimumSum(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.minChanges("1001") == 2
-assert obj.minChanges("10") == 1
-assert obj.minChanges("0000") == 0
+assert obj.minimumSum([8, 6, 1, 5, 3]) == 9
+assert obj.minimumSum([5, 4, 8, 7, 10, 2]) == 13
+assert obj.minimumSum([6, 5, 4, 3, 4, 5]) == -1
