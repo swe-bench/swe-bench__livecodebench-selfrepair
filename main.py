@@ -1,8 +1,10 @@
+from typing import List
+
 class Solution:
-    def maximumXorProduct(self, a: int, b: int, n: int) -> int:
+    def maximumStrongPairXor(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maximumXorProduct(12, 5, 4) == 98
-assert obj.maximumXorProduct(6, 7, 5) == 930
-assert obj.maximumXorProduct(1, 6, 3) == 12
+assert obj.maximumStrongPairXor([1, 2, 3, 4, 5]) == 7
+assert obj.maximumStrongPairXor([10, 100]) == 0
+assert obj.maximumStrongPairXor([5, 6, 25, 30]) == 7
