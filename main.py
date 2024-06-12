@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def countBeautifulPairs(self, nums: List[int]) -> int:
+    def longestEqualSubarray(self, nums: List[int], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.countBeautifulPairs([2, 5, 1, 4]) == 5
-assert obj.countBeautifulPairs([11, 21, 12]) == 2
+assert obj.longestEqualSubarray([1, 3, 2, 3, 1, 3], 3) == 3
+assert obj.longestEqualSubarray([1, 1, 2, 2, 1, 1], 2) == 4
