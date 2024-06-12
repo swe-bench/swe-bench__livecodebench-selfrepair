@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def numberOfSequence(self, n: int, sick: List[int]) -> int:
+    def maxSubarrayLength(self, nums: List[int], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.numberOfSequence(5, [0, 4]) == 4
-assert obj.numberOfSequence(4, [1]) == 3
+assert obj.maxSubarrayLength([1, 2, 3, 1, 2, 3, 1, 2], 2) == 6
+assert obj.maxSubarrayLength([1, 2, 1, 2, 1, 2, 1, 2], 1) == 2
+assert obj.maxSubarrayLength([5, 5, 5, 5, 5, 5, 5], 4) == 4
