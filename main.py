@@ -1,7 +1,7 @@
 class Solution:
-    def finalString(self, s: str) -> str:
+    def sortVowels(self, s: str) -> str:
         pass
 
 obj = Solution()
-assert obj.finalString("string") == "rtsng"
-assert obj.finalString("poiinter") == "ponter"
+assert obj.sortVowels("lEetcOde") == "lEOtcede"
+assert obj.sortVowels("lYmpH") == "lYmpH"
