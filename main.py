@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def maximumNumberOfStringPairs(self, words: List[str]) -> int:
+    def specialPerm(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maximumNumberOfStringPairs(["cd", "ac", "dc", "ca", "zz"]) == 2
-assert obj.maximumNumberOfStringPairs(["ab", "ba", "cc"]) == 1
-assert obj.maximumNumberOfStringPairs(["aa", "ab"]) == 0
+assert obj.specialPerm([2, 3, 6]) == 2
+assert obj.specialPerm([1, 4, 3]) == 2
