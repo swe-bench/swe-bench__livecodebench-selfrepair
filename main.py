@@ -1,8 +1,10 @@
+from typing import List
+
 class Solution:
-    def minimizedStringLength(self, s: str) -> int:
+    def canTraverseAllPairs(self, nums: List[int]) -> bool:
         pass
 
 obj = Solution()
-assert obj.minimizedStringLength("aaabc") == 3
-assert obj.minimizedStringLength("cbbd") == 3
-assert obj.minimizedStringLength("dddaaa") == 2
+assert obj.canTraverseAllPairs([2, 3, 6]) == True
+assert obj.canTraverseAllPairs([3, 9, 5]) == False
+assert obj.canTraverseAllPairs([4, 3, 12, 8]) == True
