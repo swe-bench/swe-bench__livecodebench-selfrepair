@@ -1,8 +1,7 @@
 class Solution:
-    def makeSmallestPalindrome(self, s: str) -> str:
+    def minimumCost(self, s: str) -> int:
         pass
 
 obj = Solution()
-assert obj.makeSmallestPalindrome("egcfe") == "efcfe"
-assert obj.makeSmallestPalindrome("abcd") == "abba"
-assert obj.makeSmallestPalindrome("seven") == "neven"
+assert obj.minimumCost("0011") == 2
+assert obj.minimumCost("010101") == 9
