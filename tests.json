@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"4\\n4\\n2 2 1 2\\n3\\n0 1 2\\n5\\n4 3 2 3 4\\n9\\n9 9 9 9 9 9 9 9 9\\n\", \"output\": \"16\\n2\\n432\\n430467210\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"8\\n6 3\\nWBWWWB\\n7 3\\nWWBWBWW\\n5 4\\nBWBWB\\n5 5\\nBBBBB\\n8 2\\nBWBWBBBB\\n10 2\\nWBBWBBWBBW\\n4 1\\nBBBB\\n3 2\\nWWW\\n\", \"output\": \"2\\n1\\n2\\n1\\n4\\n3\\n4\\n0\\n\", \"testtype\": \"stdin\"}]"}
