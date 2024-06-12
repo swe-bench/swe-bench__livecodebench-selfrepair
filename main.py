@@ -1,7 +1,7 @@
 class Solution:
-    def removeTrailingZeros(self, num: str) -> str:
+    def isFascinating(self, n: int) -> bool:
         pass
 
 obj = Solution()
-assert obj.removeTrailingZeros("51230100") == "512301"
-assert obj.removeTrailingZeros("123") == "123"
+assert obj.isFascinating(192) == True
+assert obj.isFascinating(100) == False
