@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def maximumJumps(self, nums: List[int], target: int) -> int:
+    def countCompleteSubarrays(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maximumJumps([1, 3, 6, 4, 1, 2], 2) == 3
-assert obj.maximumJumps([1, 3, 6, 4, 1, 2], 3) == 5
-assert obj.maximumJumps([1, 3, 6, 4, 1, 2], 0) == -1
+assert obj.countCompleteSubarrays([1, 3, 1, 2, 2]) == 4
+assert obj.countCompleteSubarrays([5, 5, 5, 5]) == 10
