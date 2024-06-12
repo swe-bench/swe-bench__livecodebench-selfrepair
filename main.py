@@ -1,11 +1,9 @@
 from typing import List
 
 class Solution:
-    def isGood(self, nums: List[int]) -> bool:
+    def maxScore(self, nums: List[int], x: int) -> int:
         pass
 
 obj = Solution()
-assert obj.isGood([2, 1, 3]) == False
-assert obj.isGood([1, 3, 3, 2]) == True
-assert obj.isGood([1, 1]) == True
-assert obj.isGood([3, 4, 4, 1, 2, 1]) == False
+assert obj.maxScore([2, 3, 6, 1, 9, 2], 5) == 13
+assert obj.maxScore([2, 4, 6, 8], 3) == 20
