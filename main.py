@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def maxScore(self, nums: List[int], x: int) -> int:
+    def maxSum(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.maxScore([2, 3, 6, 1, 9, 2], 5) == 13
-assert obj.maxScore([2, 4, 6, 8], 3) == 20
+assert obj.maxSum([51, 71, 17, 24, 42]) == 88
+assert obj.maxSum([1, 2, 3, 4]) == -1
