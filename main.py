@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def matrixSum(self, nums: List[List[int]]) -> int:
+    def maximumOr(self, nums: List[int], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.matrixSum([[7, 2, 1], [6, 4, 2], [6, 5, 3], [3, 2, 1]]) == 15
-assert obj.matrixSum([[1]]) == 1
+assert obj.maximumOr([12, 9], 1) == 30
+assert obj.maximumOr([8, 1, 2], 2) == 35
