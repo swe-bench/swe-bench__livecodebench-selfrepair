@@ -1,8 +1,9 @@
+from typing import List
+
 class Solution:
-    def minimumTimeToInitialState(self, word: str, k: int) -> int:
+    def maxSelectedElements(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.minimumTimeToInitialState("abacaba", 3) == 2
-assert obj.minimumTimeToInitialState("abacaba", 4) == 1
-assert obj.minimumTimeToInitialState("abcbabcd", 2) == 4
+assert obj.maxSelectedElements([2, 1, 5, 1, 1]) == 3
+assert obj.maxSelectedElements([1, 4, 7, 10]) == 1
