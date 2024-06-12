@@ -1,8 +1,9 @@
+from typing import List
+
 class Solution:
-    def smallestString(self, s: str) -> str:
+    def countBeautifulPairs(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.smallestString("cbabc") == "baabc"
-assert obj.smallestString("acbbc") == "abaab"
-assert obj.smallestString("leetcode") == "kddsbncd"
+assert obj.countBeautifulPairs([2, 5, 1, 4]) == 5
+assert obj.countBeautifulPairs([11, 21, 12]) == 2
