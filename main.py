@@ -1,7 +1,7 @@
 class Solution:
-    def minLength(self, s: str) -> int:
+    def punishmentNumber(self, n: int) -> int:
         pass
 
 obj = Solution()
-assert obj.minLength("ABFCACDB") == 2
-assert obj.minLength("ACBBD") == 5
+assert obj.punishmentNumber(10) == 182
+assert obj.punishmentNumber(37) == 1478
