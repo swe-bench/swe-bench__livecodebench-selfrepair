@@ -1,10 +1,7 @@
-from typing import List
-
 class Solution:
-    def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:
+    def numberOfWays(self, n: int, x: int) -> int:
         pass
 
 obj = Solution()
-assert obj.splitWordsBySeparator(["one.two.three", "four.five", "six"], ".") == ["one", "two", "three", "four", "five", "six"]
-assert obj.splitWordsBySeparator(["$easy$", "$problem$"], "$") == ["easy", "problem"]
-assert obj.splitWordsBySeparator(["|||"], "|") == []
+assert obj.numberOfWays(10, 2) == 1
+assert obj.numberOfWays(4, 1) == 2
