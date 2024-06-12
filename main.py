@@ -1,8 +1,10 @@
+from typing import List
+
 class Solution:
-    def minimumChanges(self, s: str, k: int) -> int:
+    def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:
         pass
 
 obj = Solution()
-assert obj.minimumChanges("abcac", 2) == 1
-assert obj.minimumChanges("abcdef", 2) == 2
-assert obj.minimumChanges("aabbaa", 3) == 0
+assert obj.splitWordsBySeparator(["one.two.three", "four.five", "six"], ".") == ["one", "two", "three", "four", "five", "six"]
+assert obj.splitWordsBySeparator(["$easy$", "$problem$"], "$") == ["easy", "problem"]
+assert obj.splitWordsBySeparator(["|||"], "|") == []
