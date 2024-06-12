@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def sumOfPower(self, nums: List[int]) -> int:
+    def semiOrderedPermutation(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.sumOfPower([2, 1, 4]) == 141
-assert obj.sumOfPower([1, 1, 1]) == 7
+assert obj.semiOrderedPermutation([2, 1, 4, 3]) == 2
+assert obj.semiOrderedPermutation([2, 4, 1, 3]) == 3
+assert obj.semiOrderedPermutation([1, 3, 4, 2, 5]) == 0
