@@ -1,8 +1,8 @@
 class Solution:
-    def canMakeSubsequence(self, str1: str, str2: str) -> bool:
+    def furthestDistanceFromOrigin(self, moves: str) -> int:
         pass
 
 obj = Solution()
-assert obj.canMakeSubsequence("abc", "ad") == True
-assert obj.canMakeSubsequence("zc", "ad") == True
-assert obj.canMakeSubsequence("ab", "d") == False
+assert obj.furthestDistanceFromOrigin("L_RL__R") == 3
+assert obj.furthestDistanceFromOrigin("_R__LL_") == 5
+assert obj.furthestDistanceFromOrigin("_______") == 7
