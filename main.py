@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def maxOperations(self, nums: List[int]) -> int:
+    def isPossibleToSplit(self, nums: List[int]) -> bool:
         pass
 
 obj = Solution()
-assert obj.maxOperations([3, 2, 1, 4, 5]) == 2
-assert obj.maxOperations([3, 2, 6, 1, 4]) == 1
+assert obj.isPossibleToSplit([1, 1, 2, 2, 3, 4]) == True
+assert obj.isPossibleToSplit([1, 1, 1, 1]) == False
