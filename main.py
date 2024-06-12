@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def countSubarrays(self, nums: List[int], k: int) -> int:
+    def lexicographicallySmallestArray(self, nums: List[int], limit: int) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.countSubarrays([1, 3, 2, 3, 3], 2) == 6
-assert obj.countSubarrays([1, 4, 2, 1], 3) == 0
+assert obj.lexicographicallySmallestArray([1, 5, 3, 9, 8], 2) == [1, 3, 5, 8, 9]
+assert obj.lexicographicallySmallestArray([1, 7, 6, 18, 2, 1], 3) == [1, 6, 7, 18, 1, 2]
+assert obj.lexicographicallySmallestArray([1, 7, 28, 19, 10], 3) == [1, 7, 28, 19, 10]
