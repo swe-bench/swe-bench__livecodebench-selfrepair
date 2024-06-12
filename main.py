@@ -1,10 +1,10 @@
 from typing import List
 
 class Solution:
-    def minimizeConcatenatedLength(self, words: List[str]) -> int:
+    def maximumJumps(self, nums: List[int], target: int) -> int:
         pass
 
 obj = Solution()
-assert obj.minimizeConcatenatedLength(["aa", "ab", "bc"]) == 4
-assert obj.minimizeConcatenatedLength(["ab", "b"]) == 2
-assert obj.minimizeConcatenatedLength(["aaa", "c", "aba"]) == 6
+assert obj.maximumJumps([1, 3, 6, 4, 1, 2], 2) == 3
+assert obj.maximumJumps([1, 3, 6, 4, 1, 2], 3) == 5
+assert obj.maximumJumps([1, 3, 6, 4, 1, 2], 0) == -1
