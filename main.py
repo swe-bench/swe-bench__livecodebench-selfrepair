@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def countTestedDevices(self, batteryPercentages: List[int]) -> int:
+    def findPeaks(self, mountain: List[int]) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.countTestedDevices([1, 1, 2, 1, 3]) == 3
-assert obj.countTestedDevices([0, 1, 2]) == 2
+assert obj.findPeaks([2, 4, 4]) == []
+assert obj.findPeaks([1, 4, 3, 8, 5]) == [1, 3]
