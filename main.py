@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def minimumArrayLength(self, nums: List[int]) -> int:
+    def beautifulIndices(self, s: str, a: str, b: str, k: int) -> List[int]:
         pass
 
 obj = Solution()
-assert obj.minimumArrayLength([1, 4, 3, 1]) == 1
-assert obj.minimumArrayLength([5, 5, 5, 10, 5]) == 2
-assert obj.minimumArrayLength([2, 3, 4]) == 1
+assert obj.beautifulIndices("isawsquirrelnearmysquirrelhouseohmy", "my", "squirrel", 15) == [16, 33]
+assert obj.beautifulIndices("abcd", "a", "a", 4) == [0]
