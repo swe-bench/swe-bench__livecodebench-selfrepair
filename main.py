@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def colorTheArray(self, n: int, queries: List[List[int]]) -> List[int]:
+    def sumOfPower(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.colorTheArray(4, [[0, 2], [1, 2], [3, 1], [1, 1], [2, 1]]) == [0, 1, 1, 0, 2]
-assert obj.colorTheArray(1, [[0, 100000]]) == [0]
+assert obj.sumOfPower([2, 1, 4]) == 141
+assert obj.sumOfPower([1, 1, 1]) == 7
