@@ -1,10 +1,10 @@
 from typing import List
 
 class Solution:
-    def minOperations(self, nums: List[int], k: int) -> int:
+    def minimumRightShifts(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.minOperations([3, 1, 5, 4, 2], 2) == 4
-assert obj.minOperations([3, 1, 5, 4, 2], 5) == 5
-assert obj.minOperations([3, 2, 5, 3, 1], 3) == 4
+assert obj.minimumRightShifts([3, 4, 5, 1, 2]) == 2
+assert obj.minimumRightShifts([1, 3, 5]) == 0
+assert obj.minimumRightShifts([2, 1, 4]) == -1
