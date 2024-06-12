@@ -1,7 +1,10 @@
+from typing import List
+
 class Solution:
-    def lastNonEmptyString(self, s: str) -> str:
+    def countPrefixSuffixPairs(self, words: List[str]) -> int:
         pass
 
 obj = Solution()
-assert obj.lastNonEmptyString("aabcbbca") == "ba"
-assert obj.lastNonEmptyString("abcd") == "abcd"
+assert obj.countPrefixSuffixPairs(["a", "aba", "ababa", "aa"]) == 4
+assert obj.countPrefixSuffixPairs(["pa", "papa", "ma", "mama"]) == 2
+assert obj.countPrefixSuffixPairs(["abab", "ab"]) == 0
