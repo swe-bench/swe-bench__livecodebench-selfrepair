@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def maxStrength(self, nums: List[int]) -> int:
+    def minExtraChar(self, s: str, dictionary: List[str]) -> int:
         pass
 
 obj = Solution()
-assert obj.maxStrength([3, -1, -5, 2, 5, -9]) == 1350
-assert obj.maxStrength([-4, -5, -4]) == 20
+assert obj.minExtraChar("leetscode", ["leet", "code", "leetcode"]) == 1
+assert obj.minExtraChar("sayhelloworld", ["hello", "world"]) == 3
