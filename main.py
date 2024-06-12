@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def minOperations(self, nums: List[int], k: int) -> int:
+    def areaOfMaxDiagonal(self, dimensions: List[List[int]]) -> int:
         pass
 
 obj = Solution()
-assert obj.minOperations([2, 1, 3, 4], 1) == 2
-assert obj.minOperations([2, 0, 2, 0], 0) == 0
+assert obj.areaOfMaxDiagonal([[9, 3], [8, 6]]) == 48
+assert obj.areaOfMaxDiagonal([[3, 4], [4, 3]]) == 12
