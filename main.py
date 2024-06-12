@@ -1,9 +1,7 @@
-from typing import List
-
 class Solution:
-    def countMatchingSubarrays(self, nums: List[int], pattern: List[int]) -> int:
+    def flowerGame(self, n: int, m: int) -> int:
         pass
 
 obj = Solution()
-assert obj.countMatchingSubarrays([1, 2, 3, 4, 5, 6], [1, 1]) == 4
-assert obj.countMatchingSubarrays([1, 4, 4, 1, 3, 5, 5, 3], [1, 0, -1]) == 2
+assert obj.flowerGame(3, 2) == 3
+assert obj.flowerGame(1, 1) == 0
