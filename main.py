@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def canSplitArray(self, nums: List[int], m: int) -> bool:
+    def countPairs(self, nums: List[int], target: int) -> int:
         pass
 
 obj = Solution()
-assert obj.canSplitArray([2, 2, 1], 4) == True
-assert obj.canSplitArray([2, 1, 3], 5) == False
-assert obj.canSplitArray([2, 3, 3, 2, 3], 6) == True
+assert obj.countPairs([-1, 1, 2, 3, 1], 2) == 3
+assert obj.countPairs([-6, 2, 5, -2, -7, -1, 3], -2) == 10
