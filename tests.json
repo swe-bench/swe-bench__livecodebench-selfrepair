@@ -1,1 +1,1 @@
-{"tests": "[{\"input\": \"125 175 250 300 400 525 600 650\\n\", \"output\": \"Yes\\n\", \"testtype\": \"stdin\"}, {\"input\": \"100 250 300 400 325 575 625 675\\n\", \"output\": \"No\\n\", \"testtype\": \"stdin\"}, {\"input\": \"0 23 24 145 301 413 631 632\\n\", \"output\": \"No\\n\", \"testtype\": \"stdin\"}]"}
+{"tests": "[{\"input\": \"3 2\\nred green blue\\nblue red\\n800 1600 2800\\n\", \"output\": \"5200\\n\", \"testtype\": \"stdin\"}, {\"input\": \"3 2\\ncode queen atcoder\\nking queen\\n10 1 1\\n\", \"output\": \"21\\n\", \"testtype\": \"stdin\"}]"}
