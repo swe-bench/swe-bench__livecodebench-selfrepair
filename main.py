@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def numberOfGoodSubarraySplits(self, nums: List[int]) -> int:
+    def continuousSubarrays(self, nums: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.numberOfGoodSubarraySplits([0, 1, 0, 0, 1]) == 3
-assert obj.numberOfGoodSubarraySplits([0, 1, 0]) == 1
+assert obj.continuousSubarrays([5, 4, 2, 4]) == 8
+assert obj.continuousSubarrays([1, 2, 3]) == 6
