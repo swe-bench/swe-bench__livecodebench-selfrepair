@@ -1,9 +1,10 @@
 from typing import List
 
 class Solution:
-    def longestCommonPrefix(self, arr1: List[int], arr2: List[int]) -> int:
+    def minOperations(self, nums: List[int], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.longestCommonPrefix([1, 10, 100], [1000]) == 3
-assert obj.longestCommonPrefix([1, 2, 3], [4, 4, 4]) == 0
+assert obj.minOperations([2, 11, 10, 1, 3], 10) == 3
+assert obj.minOperations([1, 1, 2, 4, 9], 1) == 0
+assert obj.minOperations([1, 1, 2, 4, 9], 9) == 4
