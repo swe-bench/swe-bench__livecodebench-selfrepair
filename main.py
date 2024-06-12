@@ -1,9 +1,9 @@
 from typing import List
 
 class Solution:
-    def findPrimePairs(self, n: int) -> List[List[int]]:
+    def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
         pass
 
 obj = Solution()
-assert obj.findPrimePairs(10) == [[3, 7], [5, 5]]
-assert obj.findPrimePairs(2) == []
+assert obj.numberOfEmployeesWhoMetTarget([0, 1, 2, 3, 4], 2) == 3
+assert obj.numberOfEmployeesWhoMetTarget([5, 1, 4, 2, 2], 6) == 0
