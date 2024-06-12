@@ -1,10 +1,10 @@
 from typing import List
 
 class Solution:
-    def canSortArray(self, nums: List[int]) -> bool:
+    def earliestSecondToMarkIndices(self, nums: List[int], changeIndices: List[int]) -> int:
         pass
 
 obj = Solution()
-assert obj.canSortArray([8, 4, 2, 30, 15]) == True
-assert obj.canSortArray([1, 2, 3, 4, 5]) == True
-assert obj.canSortArray([3, 16, 8, 4, 2]) == False
+assert obj.earliestSecondToMarkIndices([2, 2, 0], [2, 2, 2, 2, 3, 2, 2, 1]) == 8
+assert obj.earliestSecondToMarkIndices([1, 3], [1, 1, 1, 2, 1, 1, 1]) == 6
+assert obj.earliestSecondToMarkIndices([0, 1], [2, 2, 2]) == -1
