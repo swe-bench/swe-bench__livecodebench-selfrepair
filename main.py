@@ -1,10 +1,7 @@
-from typing import List
-
 class Solution:
-    def doesValidArrayExist(self, derived: List[int]) -> bool:
+    def minLength(self, s: str) -> int:
         pass
 
 obj = Solution()
-assert obj.doesValidArrayExist([1, 1, 0]) == True
-assert obj.doesValidArrayExist([1, 1]) == True
-assert obj.doesValidArrayExist([1, 0]) == False
+assert obj.minLength("ABFCACDB") == 2
+assert obj.minLength("ACBBD") == 5
