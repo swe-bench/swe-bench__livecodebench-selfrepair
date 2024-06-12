@@ -1,10 +1,9 @@
 from typing import List
 
 class Solution:
-    def hasTrailingZeros(self, nums: List[int]) -> bool:
+    def minOperations(self, nums: List[int], k: int) -> int:
         pass
 
 obj = Solution()
-assert obj.hasTrailingZeros([1, 2, 3, 4, 5]) == True
-assert obj.hasTrailingZeros([2, 4, 8, 16]) == True
-assert obj.hasTrailingZeros([1, 3, 5, 7, 9]) == False
+assert obj.minOperations([2, 1, 3, 4], 1) == 2
+assert obj.minOperations([2, 0, 2, 0], 0) == 0
